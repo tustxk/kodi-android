@@ -147,7 +147,7 @@ public class Splash extends Activity {
 
           break;
         case StartingXBMC:
-          mSplash.mTextView.setText("Starting Kodi...");
+          mSplash.mTextView.setText("Starting Qodi...");
           mSplash.mProgress.setVisibility(View.INVISIBLE);
           mSplash.startXBMC();
           break;
