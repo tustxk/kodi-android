@@ -1,14 +1,14 @@
-# Kodi Media Center language file
+# Qodi Media Center language file
 # Addon Name: Estuary
 # Addon id: skin.estuary
 # Addon Provider: phil65, Ichabod Fletchman
 msgid ""
 msgstr ""
-"Project-Id-Version: KODI Main\n"
+"Project-Id-Version: QODI Main\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
+"Last-Translator: Qodi Translation Team\n"
 "Language-Team: Lithuanian (Lithuania) (http://www.transifex.com/projects/p/kodi-main/language/lt_LT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -313,8 +313,8 @@ msgid "Channel options"
 msgstr "Kanalo parinktys"
 
 msgctxt "#31098"
-msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "Pasirinkite savo Kodi profilį[CR]norėdami prisijungti ir tęsti"
+msgid "Select your Qodi user profile[CR]to login and continue"
+msgstr "Pasirinkite savo Qodi profilį[CR]norėdami prisijungti ir tęsti"
 
 msgctxt "#31099"
 msgid "IconWall"
@@ -389,8 +389,8 @@ msgid "Enter add-on browser"
 msgstr "Atidaryti priedų naršyklę"
 
 msgctxt "#31119"
-msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Kodi experience."
-msgstr "Jūs kol kas nesate įdiegę priedų. Atsidarykite priedų naršyklę, jei norite naršyti mūsų kolekciją ir pagerinti Kodi patirtį."
+msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Qodi experience."
+msgstr "Jūs kol kas nesate įdiegę priedų. Atsidarykite priedų naršyklę, jei norite naršyti mūsų kolekciją ir pagerinti Qodi patirtį."
 
 msgctxt "#31120"
 msgid "You did not set up a weather provider yet. In order to view weather information, choose a weather provider and set up your location."
@@ -477,8 +477,8 @@ msgid "Play speed"
 msgstr "Atkūrimo greitis"
 
 msgctxt "#31143"
-msgid "You did not set up PVR yet. In order to use PVR, choose a PVR client addon and configure it. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "Jūs kol kas nenustatėte PVR. Norėdami naudoti PVR, pasirinkite PVR kliento priedą ir sukonfigūruokite jį. Apsilankykite http://kodi.wiki/view/PVR, jei reikia daugiau informacijos."
+msgid "You did not set up PVR yet. In order to use PVR, choose a PVR client addon and configure it. Please visit http://qodi.wiki/view/PVR to learn more."
+msgstr "Jūs kol kas nenustatėte PVR. Norėdami naudoti PVR, pasirinkite PVR kliento priedą ir sukonfigūruokite jį. Apsilankykite http://qodi.wiki/view/PVR, jei reikia daugiau informacijos."
 
 msgctxt "#31144"
 msgid "Enter add-on browser"

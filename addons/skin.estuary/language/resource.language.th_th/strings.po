@@ -1,14 +1,14 @@
-# Kodi Media Center language file
+# Qodi Media Center language file
 # Addon Name: Estuary
 # Addon id: skin.estuary
 # Addon Provider: phil65, Ichabod Fletchman
 msgid ""
 msgstr ""
-"Project-Id-Version: KODI Main\n"
+"Project-Id-Version: QODI Main\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
+"Last-Translator: Qodi Translation Team\n"
 "Language-Team: Thai (Thailand) (http://www.transifex.com/projects/p/kodi-main/language/th_TH/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -309,8 +309,8 @@ msgid "Channel options"
 msgstr "ตัวเลือกของช่อง"
 
 msgctxt "#31098"
-msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "เลือกโปรไฟล์ผู้ใช้ Kodi ของคุณ[CR]เพื่อเข้าสู่ระบบและดำเนินการต่อไป"
+msgid "Select your Qodi user profile[CR]to login and continue"
+msgstr "เลือกโปรไฟล์ผู้ใช้ Qodi ของคุณ[CR]เพื่อเข้าสู่ระบบและดำเนินการต่อไป"
 
 msgctxt "#31099"
 msgid "IconWall"
@@ -385,8 +385,8 @@ msgid "Enter add-on browser"
 msgstr "เข้าสู่สืบค้นส่วนเสริม"
 
 msgctxt "#31119"
-msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Kodi experience."
-msgstr "คุณไม่มีส่วนเสริมใดๆติดตั้งอยู่ เยี่ยมชมการเรียกดูส่วนเสริมของเรา เพื่อเรียกดูการรวบรวมของเราและปรับปรุงประสบการณ์ Kodi ของคุณ"
+msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Qodi experience."
+msgstr "คุณไม่มีส่วนเสริมใดๆติดตั้งอยู่ เยี่ยมชมการเรียกดูส่วนเสริมของเรา เพื่อเรียกดูการรวบรวมของเราและปรับปรุงประสบการณ์ Qodi ของคุณ"
 
 msgctxt "#31120"
 msgid "You did not set up a weather provider yet. In order to view weather information, choose a weather provider and set up your location."
@@ -473,8 +473,8 @@ msgid "Play speed"
 msgstr "ความเร็วการเล่น"
 
 msgctxt "#31143"
-msgid "You did not set up PVR yet. In order to use PVR, choose a PVR client addon and configure it. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "คุณยังไม่ได้ตั้งค่า PVR เพื่อที่จะใช้ PVR เลือกส่วนเสริม ลูกข่าย PVR และกำหนดค่า เยี่ยมชม http://kodi.wiki/view/PVR เพื่อเรียนรู้เพิ่มเติม"
+msgid "You did not set up PVR yet. In order to use PVR, choose a PVR client addon and configure it. Please visit http://qodi.wiki/view/PVR to learn more."
+msgstr "คุณยังไม่ได้ตั้งค่า PVR เพื่อที่จะใช้ PVR เลือกส่วนเสริม ลูกข่าย PVR และกำหนดค่า เยี่ยมชม http://qodi.wiki/view/PVR เพื่อเรียนรู้เพิ่มเติม"
 
 msgctxt "#31144"
 msgid "Enter add-on browser"

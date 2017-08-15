@@ -1,14 +1,14 @@
-# Kodi Media Center language file
+# Qodi Media Center language file
 # Addon Name: Estuary
 # Addon id: skin.estuary
 # Addon Provider: phil65, Ichabod Fletchman
 msgid ""
 msgstr ""
-"Project-Id-Version: KODI Main\n"
+"Project-Id-Version: QODI Main\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
+"Last-Translator: Qodi Translation Team\n"
 "Language-Team: Galician (Spain) (http://www.transifex.com/projects/p/kodi-main/language/gl_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -313,8 +313,8 @@ msgid "Channel options"
 msgstr "Opcións da canle"
 
 msgctxt "#31098"
-msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "Selecciona o teu perfil de usuario do Kodi[CR]para iniciar sesión e continuar"
+msgid "Select your Qodi user profile[CR]to login and continue"
+msgstr "Selecciona o teu perfil de usuario do Qodi[CR]para iniciar sesión e continuar"
 
 msgctxt "#31099"
 msgid "IconWall"
@@ -389,8 +389,8 @@ msgid "Enter add-on browser"
 msgstr "Introducir buscador de engadidos"
 
 msgctxt "#31119"
-msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Kodi experience."
-msgstr "Non tes aínda ningún complemento instalado. Visita o noso repositorio e busca a través da nosa colección e mellora a túa experiencia en Kodi."
+msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Qodi experience."
+msgstr "Non tes aínda ningún complemento instalado. Visita o noso repositorio e busca a través da nosa colección e mellora a túa experiencia en Qodi."
 
 msgctxt "#31120"
 msgid "You did not set up a weather provider yet. In order to view weather information, choose a weather provider and set up your location."
@@ -469,8 +469,8 @@ msgid "Play speed"
 msgstr "Velocidade de reprodución"
 
 msgctxt "#31143"
-msgid "You did not set up PVR yet. In order to use PVR, choose a PVR client addon and configure it. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "Aínda non configuraches un PVR. Para usalo, selecciona un complemento cliente de PVR e configúrao. Por favor, visita http://kodi.wiki/view/PVR para saber máis."
+msgid "You did not set up PVR yet. In order to use PVR, choose a PVR client addon and configure it. Please visit http://qodi.wiki/view/PVR to learn more."
+msgstr "Aínda non configuraches un PVR. Para usalo, selecciona un complemento cliente de PVR e configúrao. Por favor, visita http://qodi.wiki/view/PVR para saber máis."
 
 msgctxt "#31144"
 msgid "Enter add-on browser"

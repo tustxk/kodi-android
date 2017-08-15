@@ -1,14 +1,14 @@
-# Kodi Media Center language file
+# Qodi Media Center language file
 # Addon Name: Estuary
 # Addon id: skin.estuary
 # Addon Provider: phil65, Ichabod Fletchman
 msgid ""
 msgstr ""
-"Project-Id-Version: KODI Main\n"
+"Project-Id-Version: QODI Main\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
+"Last-Translator: Qodi Translation Team\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/kodi-main/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -309,8 +309,8 @@ msgid "Channel options"
 msgstr "Opções do canal"
 
 msgctxt "#31098"
-msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "Selecione o seu perfil de utilizador do Kodi[CR]para iniciar sessão e continuar"
+msgid "Select your Qodi user profile[CR]to login and continue"
+msgstr "Selecione o seu perfil de utilizador do Qodi[CR]para iniciar sessão e continuar"
 
 msgctxt "#31099"
 msgid "IconWall"
@@ -385,8 +385,8 @@ msgid "Enter add-on browser"
 msgstr "Entrar no navegador de add-ons"
 
 msgctxt "#31119"
-msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Kodi experience."
-msgstr "Ainda não tem nenhuns add-ons instalados. Visite o nosso navegador de add-ons para escolher na nossa coleção e melhorar a sua experiência do Kodi."
+msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Qodi experience."
+msgstr "Ainda não tem nenhuns add-ons instalados. Visite o nosso navegador de add-ons para escolher na nossa coleção e melhorar a sua experiência do Qodi."
 
 msgctxt "#31120"
 msgid "You did not set up a weather provider yet. In order to view weather information, choose a weather provider and set up your location."

@@ -1,14 +1,14 @@
-# Kodi Media Center language file
+# Qodi Media Center language file
 # Addon Name: Estuary
 # Addon id: skin.estuary
 # Addon Provider: phil65, Ichabod Fletchman
 msgid ""
 msgstr ""
-"Project-Id-Version: KODI Main\n"
+"Project-Id-Version: QODI Main\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
+"Last-Translator: Qodi Translation Team\n"
 "Language-Team: Croatian (Croatia) (http://www.transifex.com/projects/p/kodi-main/language/hr_HR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -313,8 +313,8 @@ msgid "Channel options"
 msgstr "Mogućnosti programa"
 
 msgctxt "#31098"
-msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "Odaberite svoj Kodi korisnički profil[CR]za prijavu i nastavak"
+msgid "Select your Qodi user profile[CR]to login and continue"
+msgstr "Odaberite svoj Qodi korisnički profil[CR]za prijavu i nastavak"
 
 msgctxt "#31099"
 msgid "IconWall"
@@ -389,8 +389,8 @@ msgid "Enter add-on browser"
 msgstr "Otvori pregled dodataka"
 
 msgctxt "#31119"
-msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Kodi experience."
-msgstr "Nemate niti jedan dodatak instaliran. Posjetite naš preglednik dodataka kako bi pregledali našu kolekciju i poboljšali svoje iskustvo s Kodijem."
+msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Qodi experience."
+msgstr "Nemate niti jedan dodatak instaliran. Posjetite naš preglednik dodataka kako bi pregledali našu kolekciju i poboljšali svoje iskustvo s Qodijem."
 
 msgctxt "#31120"
 msgid "You did not set up a weather provider yet. In order to view weather information, choose a weather provider and set up your location."
@@ -477,8 +477,8 @@ msgid "Play speed"
 msgstr "Brzina reprodukcije"
 
 msgctxt "#31143"
-msgid "You did not set up PVR yet. In order to use PVR, choose a PVR client addon and configure it. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "Još niste postavili PVR. Kako biste koristili PVR, odaberite dodatak PVR klijenta i prilagodite ga. Posjetite http://kodi.wiki/view/PVR kako bi saznali više."
+msgid "You did not set up PVR yet. In order to use PVR, choose a PVR client addon and configure it. Please visit http://qodi.wiki/view/PVR to learn more."
+msgstr "Još niste postavili PVR. Kako biste koristili PVR, odaberite dodatak PVR klijenta i prilagodite ga. Posjetite http://qodi.wiki/view/PVR kako bi saznali više."
 
 msgctxt "#31144"
 msgid "Enter add-on browser"

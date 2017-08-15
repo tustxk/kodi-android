@@ -1,14 +1,14 @@
-# Kodi Media Center language file
+# Qodi Media Center language file
 # Addon Name: Estuary
 # Addon id: skin.estuary
 # Addon Provider: phil65, Ichabod Fletchman
 msgid ""
 msgstr ""
-"Project-Id-Version: KODI Main\n"
+"Project-Id-Version: QODI Main\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
+"Last-Translator: Qodi Translation Team\n"
 "Language-Team: French (France) (http://www.transifex.com/projects/p/kodi-main/language/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -313,8 +313,8 @@ msgid "Channel options"
 msgstr "Options de la chaîne"
 
 msgctxt "#31098"
-msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "Sélectionner le profil utilisateur Kodi[CR]pour s'identifier et poursuivre"
+msgid "Select your Qodi user profile[CR]to login and continue"
+msgstr "Sélectionner le profil utilisateur Qodi[CR]pour s'identifier et poursuivre"
 
 msgctxt "#31099"
 msgid "IconWall"
@@ -389,8 +389,8 @@ msgid "Enter add-on browser"
 msgstr "Aller au navigateur d'extensions"
 
 msgctxt "#31119"
-msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Kodi experience."
-msgstr "Aucune extension n'a encore été installée. Utiliser le navigateur pour parcourir la collection d'extensions de Kodi afin d'améliorer l'expérience utilisateur."
+msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Qodi experience."
+msgstr "Aucune extension n'a encore été installée. Utiliser le navigateur pour parcourir la collection d'extensions de Qodi afin d'améliorer l'expérience utilisateur."
 
 msgctxt "#31120"
 msgid "You did not set up a weather provider yet. In order to view weather information, choose a weather provider and set up your location."
@@ -477,8 +477,8 @@ msgid "Play speed"
 msgstr "Vitesse de lecture"
 
 msgctxt "#31143"
-msgid "You did not set up PVR yet. In order to use PVR, choose a PVR client addon and configure it. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "Il n'y a pas encore d'enregistreur vidéo (PVR) défini. Pour utiliser la fonction d'enregistrement vidéo numérique, choisir une extension de client enregistreur numérique et la configurer. Merci de visiter http://kodi.wiki/view/PVR pour plus d'informations."
+msgid "You did not set up PVR yet. In order to use PVR, choose a PVR client addon and configure it. Please visit http://qodi.wiki/view/PVR to learn more."
+msgstr "Il n'y a pas encore d'enregistreur vidéo (PVR) défini. Pour utiliser la fonction d'enregistrement vidéo numérique, choisir une extension de client enregistreur numérique et la configurer. Merci de visiter http://qodi.wiki/view/PVR pour plus d'informations."
 
 msgctxt "#31144"
 msgid "Enter add-on browser"

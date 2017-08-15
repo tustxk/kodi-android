@@ -1,14 +1,14 @@
-# Kodi Media Center language file
+# Qodi Media Center language file
 # Addon Name: Estuary
 # Addon id: skin.estuary
 # Addon Provider: phil65, Ichabod Fletchman
 msgid ""
 msgstr ""
-"Project-Id-Version: KODI Main\n"
+"Project-Id-Version: QODI Main\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
+"Last-Translator: Qodi Translation Team\n"
 "Language-Team: Greek (Greece) (http://www.transifex.com/projects/p/kodi-main/language/el_GR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -313,8 +313,8 @@ msgid "Channel options"
 msgstr "Επιλογές καναλιού"
 
 msgctxt "#31098"
-msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "Επιλέξτε προφίλ χρήστη για το Kodi[CR]για να συνδεθείτε και να συνεχίσετε"
+msgid "Select your Qodi user profile[CR]to login and continue"
+msgstr "Επιλέξτε προφίλ χρήστη για το Qodi[CR]για να συνδεθείτε και να συνεχίσετε"
 
 msgctxt "#31100"
 msgid "Shift"
@@ -385,8 +385,8 @@ msgid "Enter add-on browser"
 msgstr "Εισαγωγή Περιηγητή πρόσθετων"
 
 msgctxt "#31119"
-msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Kodi experience."
-msgstr "Δεν έχετε εγκαταστήσει κανένα πρόσθετο ακόμα. Επισκεφθείτε  τον περιηγητή προσθέτων μας για να περιηγηθείτε στη συλλογή μας και να βελτιώσετε την εμπειρία σας στο Kodi."
+msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Qodi experience."
+msgstr "Δεν έχετε εγκαταστήσει κανένα πρόσθετο ακόμα. Επισκεφθείτε  τον περιηγητή προσθέτων μας για να περιηγηθείτε στη συλλογή μας και να βελτιώσετε την εμπειρία σας στο Qodi."
 
 msgctxt "#31120"
 msgid "You did not set up a weather provider yet. In order to view weather information, choose a weather provider and set up your location."

@@ -1,14 +1,14 @@
-# Kodi Media Center language file
+# Qodi Media Center language file
 # Addon Name: Estuary
 # Addon id: skin.estuary
 # Addon Provider: phil65, Ichabod Fletchman
 msgid ""
 msgstr ""
-"Project-Id-Version: KODI Main\n"
+"Project-Id-Version: QODI Main\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
+"Last-Translator: Qodi Translation Team\n"
 "Language-Team: Hebrew (Israel) (http://www.transifex.com/projects/p/kodi-main/language/he_IL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -313,8 +313,8 @@ msgid "Channel options"
 msgstr "אפשרויות ערוץ"
 
 msgctxt "#31098"
-msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "יש לבחור חשבון משתמש Kodi[CR]להתחברות והמשך"
+msgid "Select your Qodi user profile[CR]to login and continue"
+msgstr "יש לבחור חשבון משתמש Qodi[CR]להתחברות והמשך"
 
 msgctxt "#31099"
 msgid "IconWall"
@@ -389,7 +389,7 @@ msgid "Enter add-on browser"
 msgstr "הפעל הרחבות דפדפן"
 
 msgctxt "#31119"
-msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Kodi experience."
+msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Qodi experience."
 msgstr "אין לך שום הרחבות מותקנות עדיין. בקר בהרחבות הדפדפן ודפדפן באוסף שלנו ושפר את חווית הקודי שלך."
 
 msgctxt "#31120"
@@ -477,8 +477,8 @@ msgid "Play speed"
 msgstr "מהירות ניגון"
 
 msgctxt "#31143"
-msgid "You did not set up PVR yet. In order to use PVR, choose a PVR client addon and configure it. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "לא הגדרת שום מקליט וידאו אישי עדיין. לצורך שימוש במקליט וידאו אישי, בחר הרחבת לקוח מקליט וידאו אישי והגדר אותו. למידע נוסף בקר ב http://kodi.wiki/view/PVR"
+msgid "You did not set up PVR yet. In order to use PVR, choose a PVR client addon and configure it. Please visit http://qodi.wiki/view/PVR to learn more."
+msgstr "לא הגדרת שום מקליט וידאו אישי עדיין. לצורך שימוש במקליט וידאו אישי, בחר הרחבת לקוח מקליט וידאו אישי והגדר אותו. למידע נוסף בקר ב http://qodi.wiki/view/PVR"
 
 msgctxt "#31144"
 msgid "Enter add-on browser"
