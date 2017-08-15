@@ -1469,6 +1469,19 @@ void CApplication::OnSettingChanged(const CSetting *setting)
     m_replayGainSettings.iPreAmp = ((CSettingInt*)setting)->GetValue();
   else if (StringUtils::EqualsNoCase(settingId, CSettings::SETTING_MUSICPLAYER_REPLAYGAINNOGAINPREAMP))
     m_replayGainSettings.iNoGainPreAmp = ((CSettingInt*)setting)->GetValue();
+  else if (StringUtils::EqualsNoCase(settingId, CSettings::SETTING_TRIGTOP_VIDEOPLAYEREXTERNAL))
+  {
+	  if (CSettings::GetInstance().GetBool(CSettings::SETTING_TRIGTOP_VIDEOPLAYEREXTERNAL))
+	  {
+		  system("cp /data/data/org.xbmc.kodi/cache/apk/assets/system/settings/playercorefactory1.xml /data/data/org.xbmc.kodi/cache/apk/assets/system/playercorefactory.xml");
+		  CPlayerCoreFactory::GetInstance().OnSettingsLoaded();
+	  }
+	  else
+	  {
+		  system("cp /data/data/org.xbmc.kodi/cache/apk/assets/system/settings/playercorefactory0.xml /data/data/org.xbmc.kodi/cache/apk/assets/system/playercorefactory.xml");
+		  CPlayerCoreFactory::GetInstance().OnSettingsLoaded();
+	  }
+  }
 }
 
 void CApplication::OnSettingAction(const CSetting *setting)
