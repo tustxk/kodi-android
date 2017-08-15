@@ -19745,3 +19745,14 @@ msgstr ""
 msgctxt "#39010"
 msgid "Select sort method"
 msgstr ""
+
+#: system/settings/settings.xml
+msgctxt "#50001"
+msgid "Play video with external player"
+msgstr ""
+
+#. Description of setting with label #50001 "Play video with external player"
+#: system/settings/settings.xml
+msgctxt "#50002"
+msgid "[Enabled] launch external player to play when play video file.[CR][Disabled] Normal mode.play the video itself"
+msgstr ""

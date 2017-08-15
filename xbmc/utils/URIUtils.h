@@ -37,6 +37,7 @@ public:
 
   static std::string GetExtension(const CURL& url);
   static std::string GetExtension(const std::string& strFileName);
+  static std::string myURLEncodePath(const std::string& strPath);
 
   /*!
    \brief Check if there is a file extension

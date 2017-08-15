@@ -8,6 +8,11 @@
           <default>false</default>
           <control type="toggle" />
         </setting>
+        <setting id="trigtop.videoplayerexternal" type="boolean" label="50001" help="50002">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle" />
+        </setting>
         <setting id="videoplayer.seeksteps" type="list[integer]" label="13556" help="37042">
           <level>1</level>
           <default>-600,-300,-180,-60,-30,-10,10,30,60,180,300,600</default>

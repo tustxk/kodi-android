@@ -415,6 +415,15 @@ std::string URIUtils::GetBasePath(const std::string& strPath)
   return strDirectory;
 }
 
+std::string URIUtils::myURLEncodePath(const std::string& strPath)
+{
+  std::vector<std::string> segments = StringUtils::Split(strPath, "/");
+  for (std::vector<std::string>::iterator i = segments.begin(); i != segments.end(); ++i)
+    *i = CURL::Encode(*i);
+
+  return StringUtils::Join(segments, "/");
+}
+
 std::string URLEncodePath(const std::string& strPath)
 {
   std::vector<std::string> segments = StringUtils::Split(strPath, "/");
