@@ -443,7 +443,7 @@ bool CSysInfo::Save(TiXmlNode *settings) const
 const std::string& CSysInfo::GetAppName(void)
 {
   assert(CCompileInfo::GetAppName() != NULL);
-  static const std::string appName(CCompileInfo::GetAppName());
+  static const std::string appName("Qodi");
 
   return appName;
 }
