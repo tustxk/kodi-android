@@ -60,6 +60,46 @@ bool CPasswordManager::AuthenticateURL(CURL &url)
   return false;
 }
 
+std::string CPasswordManager::GetUserName(CURL &url)
+{
+	CSingleLock lock(m_critSection);
+
+	if (!m_loaded)
+		Load();
+	std::string lookup(GetLookupPath(url));
+	std::map<std::string, std::string>::const_iterator it = m_temporaryCache.find(lookup);
+	if (it == m_temporaryCache.end())
+	{ // second step, try something that doesn't quite match
+		it = m_temporaryCache.find(GetServerLookup(lookup));
+	}
+	if (it != m_temporaryCache.end())
+	{
+		CURL auth(it->second);
+		return auth.GetUserName();
+	}
+	return NULL;
+}
+
+std::string CPasswordManager::GetPassWord(CURL &url)
+{
+	CSingleLock lock(m_critSection);
+
+	if (!m_loaded)
+		Load();
+	std::string lookup(GetLookupPath(url));
+	std::map<std::string, std::string>::const_iterator it = m_temporaryCache.find(lookup);
+	if (it == m_temporaryCache.end())
+	{ // second step, try something that doesn't quite match
+		it = m_temporaryCache.find(GetServerLookup(lookup));
+	}
+	if (it != m_temporaryCache.end())
+	{
+		CURL auth(it->second);
+		return auth.GetPassWord();
+	}
+	return NULL;
+}
+
 bool CPasswordManager::PromptToAuthenticateURL(CURL &url)
 {
   CSingleLock lock(m_critSection);

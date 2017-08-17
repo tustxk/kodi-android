@@ -52,6 +52,8 @@ public:
    \sa CURL
    */
   bool AuthenticateURL(CURL &url);
+  std::string GetUserName(CURL &url);
+  std::string GetPassWord(CURL &url);
 
   /*!
    \brief Prompt for a username and password for the particular URL.
