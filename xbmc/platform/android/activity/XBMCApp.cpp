@@ -91,6 +91,10 @@
 
 #include "CompileInfo.h"
 #include "video/videosync/VideoSyncAndroid.h"
+#include "URL.h"
+
+#include "utils/URIUtils.h"
+#include "PasswordManager.h"
 
 #define GIGABYTES       1073741824
 
@@ -634,6 +638,29 @@ bool CXBMCApp::HasLaunchIntent(const std::string &package)
 // Note intent, dataType, dataURI all default to ""
 bool CXBMCApp::StartActivity(const std::string &package, const std::string &intent, const std::string &dataType, const std::string &dataURI)
 {
+	if (!package.compare("com.trigtop.player")) {
+		std::string commands = "";
+		CURL urlDataURI(dataURI);
+		std::string Protocol = urlDataURI.GetProtocol();
+		if (urlDataURI.IsProtocol("smb")) {
+			std::string HostName = urlDataURI.GetHostName();
+			std::string ShareName = urlDataURI.GetShareName();
+			std::string FileName = urlDataURI.GetFileName();
+			std::string UserName = CPasswordManager::GetInstance().GetUserName(urlDataURI);
+			std::string PassWord = CPasswordManager::GetInstance().GetPassWord(urlDataURI);
+			commands = "am start -a android.intent.action.VIEW --user '0' --es trigtop trigtop --es serverName " + HostName
+				+ " --es shareName " + ShareName
+				+ " --es dataPath \"" + URIUtils::myURLEncodePath(FileName)
+				+ "\" --es user " + UserName
+				+ " --es password " + PassWord
+				+ " -n com.rtk.mediabrowser/com.rtk.mediabrowser.PreViewActivity";
+		} else {
+			commands = "am start -a android.intent.action.VIEW --user '0' --ez MEDIA_BROWSER_USE_RT_MEDIA_PLAYER true -n com.android.gallery3d/.app.MovieActivity -d \"file://" + URIUtils::myURLEncodePath(dataURI)
+				+ "\"";
+		}
+		system(commands.c_str());
+		return true;
+	}
   CJNIIntent newIntent = intent.empty() ?
     GetPackageManager().getLaunchIntentForPackage(package) :
     CJNIIntent(intent);
