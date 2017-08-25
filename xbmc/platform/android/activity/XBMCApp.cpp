@@ -648,12 +648,12 @@ bool CXBMCApp::StartActivity(const std::string &package, const std::string &inte
 			std::string FileName = urlDataURI.GetFileName();
 			std::string UserName = CPasswordManager::GetInstance().GetUserName(urlDataURI);
 			std::string PassWord = CPasswordManager::GetInstance().GetPassWord(urlDataURI);
-			commands = "am start -a android.intent.action.VIEW --user '0' --es trigtop trigtop --es serverName " + HostName
-				+ " --es shareName " + ShareName
-				+ " --es dataPath \"" + URIUtils::myURLEncodePath(FileName)
-				+ "\" --es user " + UserName
-				+ " --es password " + PassWord
-				+ " -n com.rtk.mediabrowser/com.rtk.mediabrowser.PreViewActivity";
+			commands = "am start -a android.intent.action.VIEW --user '0' --es trigtop trigtop --es serverName \"" + HostName
+				+ "\" --es shareName \"" + ShareName
+				+ "\" --es dataPath \"" + URIUtils::myURLEncodePath(FileName)
+				+ "\" --es user \"" + UserName
+				+ "\" --es password \"" + URIUtils::myURLEncodePath(PassWord)
+				+ "\" -n com.rtk.mediabrowser/com.rtk.mediabrowser.TrigtopActivity";
 		} else {
 			commands = "am start -a android.intent.action.VIEW --user '0' --ez MEDIA_BROWSER_USE_RT_MEDIA_PLAYER true -n com.android.gallery3d/.app.MovieActivity -d \"file://" + URIUtils::myURLEncodePath(dataURI)
 				+ "\"";
