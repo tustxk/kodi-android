@@ -654,10 +654,13 @@ bool CXBMCApp::StartActivity(const std::string &package, const std::string &inte
 				+ "\" --es user \"" + UserName
 				+ "\" --es password \"" + URIUtils::myURLEncodePath(PassWord)
 				+ "\" -n com.rtk.mediabrowser/com.rtk.mediabrowser.TrigtopActivity";
+		} else if (urlDataURI.IsProtocol("http") || urlDataURI.IsProtocol("https")) {
+			commands = "am start -a android.intent.action.VIEW --user '0' --ez MEDIA_BROWSER_USE_RT_MEDIA_PLAYER true -n com.android.gallery3d/.app.MovieActivity -d \"" + dataURI + "\"";
 		} else {
 			commands = "am start -a android.intent.action.VIEW --user '0' --ez MEDIA_BROWSER_USE_RT_MEDIA_PLAYER true -n com.android.gallery3d/.app.MovieActivity -d \"file://" + URIUtils::myURLEncodePath(dataURI)
 				+ "\"";
 		}
+		//CLog::Log(LOGERROR, "commands=%s", commands.c_str());
 		system(commands.c_str());
 		return true;
 	}
