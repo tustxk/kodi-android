@@ -642,6 +642,8 @@ bool CXBMCApp::StartActivity(const std::string &package, const std::string &inte
 		std::string commands = "";
 		CURL urlDataURI(dataURI);
 		std::string Protocol = urlDataURI.GetProtocol();
+		//CLog::Log(LOGERROR, "Protocol=%s", Protocol.c_str());
+		//CLog::Log(LOGERROR, "FileType=%s", urlDataURI.GetFileType().c_str());
 		if (urlDataURI.IsProtocol("smb")) {
 			std::string HostName = urlDataURI.GetHostName();
 			std::string ShareName = urlDataURI.GetShareName();
