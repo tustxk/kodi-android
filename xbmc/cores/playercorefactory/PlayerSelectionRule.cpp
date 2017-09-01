@@ -169,6 +169,8 @@ void CPlayerSelectionRule::GetPlayers(const CFileItem& item, std::vector<std::st
   }
 
   CURL url(item.GetPath());
+  if (m_name.compare("local") && !url.GetProtocol().empty())
+    return;
 
   if (CompileRegExp(m_fileTypes, regExp) && !MatchesRegExp(url.GetFileType(), regExp))
     return;
